@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE	hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+			"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="vn.poly.phuongcqph05100.model.Customer" table="KHACHHANG">
+		<id name="makh" type="string">
+            <column name="MAKH" />
+            <generator class="assigned" />
+        </id>
+        <property name="matkhau" type="string">
+            <column name="MATKHAU" />
+        </property>
+        <property name="hovaten" type="string">
+            <column name="HOVATEN" />
+        </property>
+        <property name="sodienthoai" type="string">
+            <column name="SDT" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" />
+        </property>
+	</class>
+</hibernate-mapping>

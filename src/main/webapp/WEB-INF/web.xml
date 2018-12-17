@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>ListCustomerController</servlet-name>
+		<display-name>ListCustomerController</display-name>
+		<description></description>
+		<servlet-class>vn.poly.phuongcqph05100.controller.ListCustomerController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>NewCustomerController</servlet-name>
+		<display-name>NewCustomerController</display-name>
+		<description></description>
+		<servlet-class>vn.poly.phuongcqph05100.controller.NewCustomerController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListCustomerController</servlet-name>
+		<url-pattern>/ListCustomerController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NewCustomerController</servlet-name>
+		<url-pattern>/NewCustomerController</url-pattern>
+	</servlet-mapping>
+</web-app>

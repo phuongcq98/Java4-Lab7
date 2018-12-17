@@ -1,0 +1,1 @@
+<% response.sendRedirect("/Lab7_phuongcqph05100/ListCustomerController?txtMaKH=&action=Search"); %>
